@@ -32,7 +32,7 @@ Chào mừng bạn đến với repo luyện tập GitHub! Đây là nơi bạn 
 ```bash
 # Thay <your-username> bằng username GitHub của bạn
 git clone https://github.com/<your-username>/github-practice-beginner.git
-cd github-practice-beginner-pva
+cd github-practice-beginner
 ```
 
 ### Bước 3: Tạo branch để làm việc
