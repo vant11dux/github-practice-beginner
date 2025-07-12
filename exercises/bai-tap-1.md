@@ -64,11 +64,10 @@
 8. **Tạo Pull Request**
    - Vào GitHub repo của bạn
    - Click "Compare & pull request"
-   - base: ten-ban/bai-tap compare ten-ban/bai-tap-1 (pull request từ nhánh bai-tap-1 về nhánh main)
+   - base: ten-ban/main compare ten-ban/bai-tap-1 (pull request từ nhánh bai-tap-1 về nhánh main)
    - Title: `[Tên bạn] - Hoàn thành bài tập 1`
    - Mô tả: "Đã thêm thông tin cá nhân vào danh sách thành viên"
    - Click "Create pull request"
-
 ---
 
 ## ✅ Checklist hoàn thành
