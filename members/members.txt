@@ -1,0 +1,26 @@
+# 👥 Danh sách thành viên
+
+> Thêm thông tin của bạn vào danh sách này trong **Bài tập 1**
+
+## Format:
+```
+- [Tên đầy đủ] - [Trường/Khoa] - [Email] - [GitHub username]
+```
+
+## Danh sách:
+
+<!-- Thêm thông tin của bạn ở dưới dòng này -->
+- Maintainer - HUST/IT - maintainer@example.com - @maintainer
+
+<!-- 
+Ví dụ:
+- Nguyễn Văn A - HUST/CNTT - vana@gmail.com - @vana123
+- Trần Thị B - HUST/KHMT - thib@edu.vn - @thib456
+-->
+
+---
+
+📝 **Lưu ý:** 
+- Mỗi person một dòng
+- Tuân thủ đúng format để dễ đọc
+- Profile chi tiết hơn ở thư mục `profiles/`
