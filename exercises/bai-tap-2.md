@@ -18,9 +18,10 @@ File `sample-document.md` trong thư mục này có một số lỗi Markdown sy
 
 ### Phần A: Chuẩn bị (5 phút)
 
-1. **Đảm bảo bạn đang ở branch của bài tập 1**
+1. **Đảm bảo bạn đang ở main branch và sync với remote**
    ```bash
-   git checkout ten-ban/bai-tap-1
+   git checkout main
+   git pull origin main
    ```
 
 2. **Tạo branch mới cho bài tập 2**
@@ -35,12 +36,13 @@ File `sample-document.md` trong thư mục này có một số lỗi Markdown sy
    - Đọc kỹ nội dung và tìm lỗi Markdown
 
 4. **Các lỗi cần sửa** (Gợi ý):
-   - ❌ Header sai syntax
-   - ❌ Link bị hỏng
-   - ❌ List formatting không đúng
+   - ❌ Header sai syntax (thiếu space)
+   - ❌ Link bị hỏng (sai URL)
+   - ❌ List formatting không đúng (mix bullets)
    - ❌ Code block thiếu syntax highlighting
    - ❌ Image link sai format
    - ❌ Table formatting lỗi
+   - ❌ Numbered list bị thiếu số
 
 5. **Sửa từng lỗi một cách cẩn thận**
    - Đọc thêm về [Markdown syntax](https://www.markdownguide.org/basic-syntax/) nếu cần
@@ -75,12 +77,13 @@ File `sample-document.md` trong thư mục này có một số lỗi Markdown sy
 
 - [ ] Đã tạo branch mới cho bài tập 2
 - [ ] Đã tìm ra tất cả lỗi Markdown trong sample-document.md
-- [ ] Đã sửa header syntax
-- [ ] Đã sửa link formatting
-- [ ] Đã sửa list formatting  
-- [ ] Đã sửa code block syntax
-- [ ] Đã sửa image link
-- [ ] Đã sửa table formatting
+- [ ] Đã sửa header syntax (thêm space sau #)
+- [ ] Đã sửa link formatting (sửa URL lỗi)
+- [ ] Đã sửa list formatting (consistent bullets)
+- [ ] Đã sửa code block syntax (thêm language)
+- [ ] Đã sửa image link (đúng format ![](url))
+- [ ] Đã sửa table formatting (đúng columns)
+- [ ] Đã sửa numbered list (thêm số thiếu)
 - [ ] Đã commit với message rõ ràng
 - [ ] Đã push và tạo Pull Request
 
