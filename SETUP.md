@@ -1,15 +1,13 @@
 # 🎉 Repo GitHub Practice đã sẵn sàng!
 
-Tôi đã tạo thành công repo **github-practice-beginner** với cấu trúc hoàn chỉnh dành cho sinh viên mới học GitHub. 
+Tôi đã tạo thành công repo **github-practice-beginner-pva** với cấu trúc hoàn chỉnh dành cho sinh viên mới học GitHub. 
 
 ## 📁 Cấu trúc đã tạo:
 
 ```
-github-practice-beginner/
+github-practice-beginner-pva/
 ├── README.md                    # Hướng dẫn tổng quan
 ├── CONTRIBUTING.md              # Quy tắc đóng góp
-├── .github/
-│   └── PULL_REQUEST_TEMPLATE.md # Template cho PR
 ├── exercises/                   # 4 bài tập chính
 │   ├── bai-tap-1.md            # Fork, Clone, Branch
 │   ├── bai-tap-2.md            # Sửa lỗi Markdown
@@ -29,7 +27,7 @@ github-practice-beginner/
 
 1. **Tạo repo trên GitHub:**
    ```bash
-   cd /home/vanh/Personal_project/github-practice-beginner
+   cd /home/vanh/Personal_project/github-practice-beginner-pva
    git init
    git add .
    git commit -m "Initial commit: Setup GitHub practice repo for Vietnamese students"
