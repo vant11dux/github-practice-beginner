@@ -219,7 +219,75 @@ branch1
 6. Xóa branch sau khi merge
 
 ---
+## 🔍 Inspection và Comparison
 
+```bash
+# Xem thay đổi chưa stage
+git diff
+
+# Xem thay đổi đã stage
+git diff --staged
+
+# So sánh giữa branches
+git diff branch1..branch2
+
+# Xem thông tin commit cụ thể
+git show commit-hash
+
+# So sánh với commit trước
+git diff HEAD~1
+
+# So sánh file cụ thể
+git diff filename
+
+# Xem diff với context nhiều hơn
+git diff -U10                # 10 dòng context thay vì 3 dòng mặc định
+```
+
+### 🎮 Điều khiển trong Git Diff Viewer
+
+```bash
+# Navigation (Di chuyển)
+q                    # Quit (Thoát)
+Space / f            # Next page (Trang tiếp)
+b                    # Previous page (Trang trước) 
+j / ↓                # Scroll down one line (Xuống 1 dòng)
+k / ↑                # Scroll up one line (Lên 1 dòng)
+g                    # Go to beginning (Về đầu)
+G                    # Go to end (Về cuối)
+
+# Search (Tìm kiếm)
+/pattern             # Search forward (Tìm xuống)
+?pattern             # Search backward (Tìm lên)
+n                    # Next match (Kết quả tiếp)
+N                    # Previous match (Kết quả trước)
+
+# Hunk Navigation (Di chuyển giữa các khối thay đổi)
+]                    # Next hunk (Khối tiếp)
+[                    # Previous hunk (Khối trước)
+
+# View Options (Tùy chọn xem)
+h                    # Help (Trợ giúp)
+```
+
+### 🎨 Git Diff với màu sắc và format đẹp hơn
+
+```bash
+# Bật màu sắc
+git config --global color.diff auto
+
+# Sử dụng diff tool bên ngoài
+git difftool
+
+# Xem diff theo từng từ thay vì từng dòng
+git diff --word-diff
+
+# Xem diff với thống kê
+git diff --stat
+
+# Ignore whitespace changes
+git diff --ignore-all-space
+```
 ## 🔗 Links hữu ích
 
 - [Git Documentation](https://git-scm.com/docs)
