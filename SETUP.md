@@ -52,4 +52,3 @@ github-practice-beginner-pva/
 - **🔄 Workflow thực tế:** Simulate conflict resolution
 - **🎨 Template sẵn:** PR template cho consistency
 
-Bạn muốn tôi push repo này lên GitHub luôn không, hay bạn muốn review và điều chỉnh gì trước?
