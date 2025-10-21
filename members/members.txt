@@ -10,6 +10,7 @@
 ## Danh sách:
 
 <!-- Thêm thông tin của bạn ở dưới dòng này -->
+- Văn Tiến Dũng - HUST/KTOT - dungthak2007@gmail.com - @vant11dux
 - Maintainer - HUST/IT - maintainer@example.com - @maintainer
 
 <!-- 
